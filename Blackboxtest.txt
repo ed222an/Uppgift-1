@@ -1,29 +1,29 @@
 I detta dokument kommer har jag skrivit ut mina tester, kört dem och sedan infört resultaten av dessa.
-Målet är att köra ett antal blackbox-tester för att kontrollera att programmer triangel.exe fungerar som det ska.
+Målet är att köra ett antal blackbox-tester för att kontrollera att programmet triangel.exe fungerar som det ska.
 
 TESTER
 
 Vad skrivs ut i konsolen?
 
-    Test 1 - Positiva lika värden: 2,0 2,0 2,0
+    Test 1 - Positiva lika värden. Input: "2,0 2,0 2,0".            Förväntad output: "Triangeln är liksidig".
         
-    Test 2 - Positiva olika värden: 1,0 2,0 3,0
+    Test 2 - Positiva olika värden. Input: "1,0 2,0 3,0".           Förväntad output: "Triangeln har inga lika sidor".
         
-    Test 3 - Negativa lika värden: -1,0 -1,0 -1,0
+    Test 3 - Negativa lika värden. Input: "-1,0 -1,0 -1,0".         Förväntad output: "Triangeln är liksidig".
         
-    Test 4 - Negativa olika värden: -1,0 -2,0 -3,0
+    Test 4 - Negativa olika värden. Input: "-1,0 -2,0 -3,0".        Förväntad output: "Triangeln har inga lika sidor".
     
-    Test 5 - Två lika & ett olikt värde: 1,0 1,0 3,0
+    Test 5 - Två lika & ett olikt värde. Input: "1,0 1,0 3,0".      Förväntad output: "Triangeln är likbent".
         
-    Test 6 - Endast två lika värden: 1,0 1,0
+    Test 6 - Endast två lika värden. Input: "1,0 1,0".              Förväntad output: Felmeddelande, för få värden.
         
-    Test 7 - Endast ett värde: 1,0
+    Test 7 - Endast ett värde. Input: "1,0".                        Förväntad output: Felmeddelande, för få värden.
         
-    Test 8 - Inga värden:
+    Test 8 - Inga värden. Input: " ".                               Förväntad output: Felmeddelande, inga värden.
         
-    Test 9 - Fyra lika värden: 1,0 1,0 1,0 1,0
+    Test 9 - Fyra lika värden. Input: "1,0 1,0 1,0 1,0".            Förväntad output: Felmeddelande, för många värden.
     
-    Test 10 - Bokstäver: qwerty
+    Test 10 - Bokstäver. Input: "qwerty".                           Förväntad output: Felmeddelande, fel format.
 
 RESULTAT
 
