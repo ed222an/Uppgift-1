@@ -37,3 +37,14 @@ Test     1: "Triangeln är liksidig".
          8: "Triangeln är liksidig".
          9: "Triangeln är liksidig".
          10: Programmet kraschar och ett System.FormatException kastas, indatasträngen hade fel format.
+         
+SLUTSATS
+
+Programmet fungerar till den del att de flesta värden är tillåtna att skriva in, både negativa och positiva.
+De flesta testerna jag gjorde resulterade i att konsolen skrev ut "Triangeln är liksidig", men med Test 5 ser vi att det även är möjligt att få utskriften "Triangeln är likbent".
+Min gissning är att programmet innehåller förutbestämda värden då det exekveras utan problem och kan skriva ut att triangeln är liksidig oavsett hur många värden användaren matar in.
+
+KORRIGERINGAR
+
+Istället för att programmet kraschar vid inmatning av otillåtna tecken (Test 10) skulle man kunna fånga upp det fel som kastas, visa ett felmeddelande och be användaren att försöka igen.
+Ett felmeddelande bör även visas när användaren matar in för få eller för många värden (Test 6-9) istället för att skriva ut "Triangeln är liksidig".
