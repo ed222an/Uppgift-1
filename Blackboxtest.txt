@@ -1,0 +1,49 @@
+I detta dokument kommer har jag skrivit ut mina tester, kört dem och sedan infört resultaten av dessa.
+Målet är att köra ett antal blackbox-tester för att kontrollera att programmer triangel.exe fungerar som det ska.
+
+TESTER
+
+Vad skrivs ut i konsolen?
+
+    Test 1 - Positiva lika värden: 2,0 2,0 2,0
+        Resultat: "Triangeln är liksidig".
+        
+    Test 2 - Positiva olika värden: 1,0 2,0 3,0
+        Resultat: "Triangeln har inga lika sidor".
+        
+    Test 3 - Negativa lika värden: -1,0 -1,0 -1,0
+        Resultat: "Triangeln är liksidig".
+        
+    Test 4 - Negativa olika värden: -1,0 -2,0 -3,0
+        Resultat: "Triangeln har inga lika sidor".
+    
+    Test 5 - Två lika & ett olikt värde: 1,0 1,0 3,0
+        Resultat: "Triangeln är likbent.
+        
+    Test 6 - Endast två lika värden: 1,0 1,0
+        Resultat: "Triangeln är liksidig".
+        
+    Test 7 - Endast ett värde: 1,0
+        Resultat: "Triangeln är liksidig".
+        
+    Test 8 - Inga värden:
+        Resultat: "Triangeln är liksidig".
+        
+    Test 9 - Fyra lika värden: 1,0 1,0 1,0 1,0
+        Resultat: "Triangeln är liksidig".
+    
+    Test 10 - Bokstäver: qwerty
+        Resultat: Programmet kraschar och ett System.FormatException kastas, indatasträngen hade fel format.
+
+RESULTAT
+
+    Test 1:
+         2:
+         3:
+         4:
+         5:
+         6:
+         7:
+         8:
+         9:
+         10:
