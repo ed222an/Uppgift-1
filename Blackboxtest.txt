@@ -27,16 +27,16 @@ Vad skrivs ut i konsolen?
 
 RESULTAT
 
-Test     1: "Triangeln är liksidig".
-         2: "Triangeln har inga lika sidor".
-         3: "Triangeln är liksidig".
-         4: "Triangeln har inga lika sidor".
-         5: "Triangeln är likbent".
-         6: "Triangeln är liksidig".
-         7: "Triangeln är liksidig".
-         8: "Triangeln är liksidig".
-         9: "Triangeln är liksidig".
-         10: Programmet kraschar och ett System.FormatException kastas, indatasträngen hade fel format.
+Test     1: "Triangeln är liksidig". - Lyckat
+         2: "Triangeln har inga lika sidor". - Lyckat
+         3: "Triangeln är liksidig". - Lyckat
+         4: "Triangeln har inga lika sidor". - Lyckat
+         5: "Triangeln är likbent". - Lyckat
+         6: "Triangeln är liksidig". - Misslyckat
+         7: "Triangeln är liksidig". - Misslyckat
+         8: "Triangeln är liksidig". - Misslyckat
+         9: "Triangeln är liksidig". - Misslyckat
+         10: Programmet kraschar och ett System.FormatException kastas, indatasträngen hade fel format. - Misslyckat
          
 SLUTSATS
 
