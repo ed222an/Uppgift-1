@@ -52,21 +52,21 @@ public class Triangle
 
     public bool isScalene()
     {
-        if (uniqueSides() == 1)
+        if (uniqueSides() == 3) // Ändrade från 1 till 3, då en scalene triangel ska ha 3 unika sidor.
             return true;
         return false;
     }
 
     public bool isEquilateral()
     {
-        if (uniqueSides() == 3)
+        if (uniqueSides() == 1) // Ändra från 3 till 1, då en liksidig triangel ska ha 1 unik sida, alltså alla är lika långa.
             return true;
         return false;
     }
 
     public bool isIsosceles()
     {
-        if (uniqueSides() == 2)
+        if (uniqueSides() == 2) // Behövde inte ändras. En likbent triangel ska ha 2 unika sidor, alltså 2 sidor är lika långa och 1 är inte det.
             return true;
         return false;
     }
