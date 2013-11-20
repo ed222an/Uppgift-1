@@ -1,0 +1,8 @@
+c:\users\emil\documents\visual studio 2012\Projects\Testlabb1\bin\Debug\Testlabb1.exe.config
+c:\users\emil\documents\visual studio 2012\Projects\Testlabb1\bin\Debug\Testlabb1.exe
+c:\users\emil\documents\visual studio 2012\Projects\Testlabb1\bin\Debug\Testlabb1.pdb
+c:\users\emil\documents\visual studio 2012\Projects\Testlabb1\obj\Debug\Testlabb1.exe
+c:\users\emil\documents\visual studio 2012\Projects\Testlabb1\obj\Debug\Testlabb1.pdb
+C:\Users\Emil\Desktop\Skolarbeten\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel\kod\c#\bin\Debug\Testlabb1.exe.config
+C:\Users\Emil\Desktop\Skolarbeten\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel\kod\c#\obj\Debug\Testlabb1.exe
+C:\Users\Emil\Desktop\Skolarbeten\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel\kod\c#\obj\Debug\Testlabb1.pdb
