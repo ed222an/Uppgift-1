@@ -5,3 +5,10 @@ C:\Users\Emil\Documents\Visual Studio 2012\Projects\UnitTestTriangle\bin\Debug\T
 C:\Users\Emil\Documents\Visual Studio 2012\Projects\UnitTestTriangle\bin\Debug\Testlabb1.pdb
 C:\Users\Emil\Documents\Visual Studio 2012\Projects\UnitTestTriangle\obj\Debug\UnitTestTriangle.dll
 C:\Users\Emil\Documents\Visual Studio 2012\Projects\UnitTestTriangle\obj\Debug\UnitTestTriangle.pdb
+C:\Users\Emil\Desktop\Skolarbeten\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel\kod\c#\UnitTestTriangle\bin\Debug\UnitTestTriangle.dll
+C:\Users\Emil\Desktop\Skolarbeten\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel\kod\c#\UnitTestTriangle\bin\Debug\UnitTestTriangle.pdb
+C:\Users\Emil\Desktop\Skolarbeten\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel\kod\c#\UnitTestTriangle\bin\Debug\Testlabb1.exe
+C:\Users\Emil\Desktop\Skolarbeten\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel\kod\c#\UnitTestTriangle\bin\Debug\Testlabb1.pdb
+C:\Users\Emil\Desktop\Skolarbeten\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel\kod\c#\UnitTestTriangle\obj\Debug\UnitTestTriangle.csprojResolveAssemblyReference.cache
+C:\Users\Emil\Desktop\Skolarbeten\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel\kod\c#\UnitTestTriangle\obj\Debug\UnitTestTriangle.dll
+C:\Users\Emil\Desktop\Skolarbeten\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel\kod\c#\UnitTestTriangle\obj\Debug\UnitTestTriangle.pdb

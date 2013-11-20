@@ -50,10 +50,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="..\..\..\..\Desktop\UnitTest1.cs">
-      <Link>UnitTest1.cs</Link>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitTest2.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Testlabb1\Testlabb1.csproj">
