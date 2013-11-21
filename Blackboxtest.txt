@@ -1,4 +1,4 @@
-I detta dokument kommer har jag skrivit ut mina tester, kört dem och sedan infört resultaten av dessa.
+﻿I detta dokument kommer har jag skrivit ut mina tester, kört dem och sedan infört resultaten av dessa.
 Målet är att köra ett antal blackbox-tester för att kontrollera att programmet triangel.exe fungerar som det ska.
 
 TESTER
@@ -9,29 +9,25 @@ Vad skrivs ut i konsolen?
         
     Test 2 - Positiva olika värden. Input: "1,0 2,0 3,0".           Förväntad output: "Triangeln har inga lika sidor".
         
-    Test 3 - Negativa lika värden. Input: "-1,0 -1,0 -1,0".         Förväntad output: "Triangeln är liksidig".
+    Test 3 - Negativa värden. Input: "-1,0 -1,0 -1,0".         	    Förväntad output: Felmeddelande, en triangel kan inte ha negativa värden.
         
-    Test 4 - Negativa olika värden. Input: "-1,0 -2,0 -3,0".        Förväntad output: "Triangeln har inga lika sidor".
+    Test 4 - Endast två lika värden. Input: "1,0 1,0".              Förväntad output: Felmeddelande, för få värden.
+        
+    Test 5 - Endast ett värde. Input: "1,0".                        Förväntad output: Felmeddelande, för få värden.
+        
+    Test 6 - Inga värden. Input: " ".                               Förväntad output: Felmeddelande, inga värden.
+        
+    Test 7 - Fyra lika värden. Input: "1,0 1,0 1,0 1,0".            Förväntad output: Felmeddelande, för många värden.
     
-    Test 5 - Två lika & ett olikt värde. Input: "1,0 1,0 3,0".      Förväntad output: "Triangeln är likbent".
-        
-    Test 6 - Endast två lika värden. Input: "1,0 1,0".              Förväntad output: Felmeddelande, för få värden.
-        
-    Test 7 - Endast ett värde. Input: "1,0".                        Förväntad output: Felmeddelande, för få värden.
-        
-    Test 8 - Inga värden. Input: " ".                               Förväntad output: Felmeddelande, inga värden.
-        
-    Test 9 - Fyra lika värden. Input: "1,0 1,0 1,0 1,0".            Förväntad output: Felmeddelande, för många värden.
-    
-    Test 10 - Bokstäver. Input: "qwerty".                           Förväntad output: Felmeddelande, fel format.
+    Test 8 - Bokstäver. Input: "qwerty".                            Förväntad output: Felmeddelande, fel format.
 
 RESULTAT
 
 Test     1: "Triangeln är liksidig". - Lyckat
          2: "Triangeln har inga lika sidor". - Lyckat
-         3: "Triangeln är liksidig". - Lyckat
-         4: "Triangeln har inga lika sidor". - Lyckat
-         5: "Triangeln är likbent". - Lyckat
+         3: "Triangeln är liksidig". - Misslyckat
+         4: "Triangeln har inga lika sidor". - Misslyckat
+         5: "Triangeln är likbent".  - Misslyckat
          6: "Triangeln är liksidig". - Misslyckat
          7: "Triangeln är liksidig". - Misslyckat
          8: "Triangeln är liksidig". - Misslyckat
@@ -40,11 +36,12 @@ Test     1: "Triangeln är liksidig". - Lyckat
          
 SLUTSATS
 
-Programmet fungerar till den del att de flesta värden är tillåtna att skriva in, både negativa och positiva.
+Programmet fungerar till den del att de flesta värden är tillåtna att skriva in.
 De flesta testerna jag gjorde resulterade i att konsolen skrev ut "Triangeln är liksidig", men med Test 5 ser vi att det även är möjligt att få utskriften "Triangeln är likbent".
 Min gissning är att programmet innehåller förutbestämda värden då det exekveras utan problem och kan skriva ut att triangeln är liksidig oavsett hur många värden användaren matar in.
 
 KORRIGERINGAR
 
+Ett huvudsakligt fel är att en triangel inte kan ha negativa värden, vilket programmet tillåter. Istället bör ett felmeddelande visas när negativa värden matats in.
 Istället för att programmet kraschar vid inmatning av otillåtna tecken (Test 10) skulle man kunna fånga upp det fel som kastas, visa ett felmeddelande och be användaren att försöka igen.
 Ett felmeddelande bör även visas när användaren matar in för få eller för många värden (Test 6-9) istället för att skriva ut "Triangeln är liksidig".

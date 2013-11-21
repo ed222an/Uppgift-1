@@ -12,3 +12,10 @@ C:\Users\Emil\Desktop\Skolarbeten\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel
 C:\Users\Emil\Desktop\Skolarbeten\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel\kod\c#\UnitTestTriangle\obj\Debug\UnitTestTriangle.csprojResolveAssemblyReference.cache
 C:\Users\Emil\Desktop\Skolarbeten\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel\kod\c#\UnitTestTriangle\obj\Debug\UnitTestTriangle.dll
 C:\Users\Emil\Desktop\Skolarbeten\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel\kod\c#\UnitTestTriangle\obj\Debug\UnitTestTriangle.pdb
+P:\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel\kod\c#\UnitTestTriangle\bin\Debug\UnitTestTriangle.dll
+P:\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel\kod\c#\UnitTestTriangle\bin\Debug\UnitTestTriangle.pdb
+P:\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel\kod\c#\UnitTestTriangle\bin\Debug\Testlabb1.exe
+P:\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel\kod\c#\UnitTestTriangle\bin\Debug\Testlabb1.pdb
+P:\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel\kod\c#\UnitTestTriangle\obj\Debug\UnitTestTriangle.csprojResolveAssemblyReference.cache
+P:\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel\kod\c#\UnitTestTriangle\obj\Debug\UnitTestTriangle.dll
+P:\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel\kod\c#\UnitTestTriangle\obj\Debug\UnitTestTriangle.pdb

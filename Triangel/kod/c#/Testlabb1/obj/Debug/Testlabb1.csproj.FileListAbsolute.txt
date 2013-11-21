@@ -12,3 +12,9 @@ C:\Users\Emil\Desktop\Skolarbeten\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel
 C:\Users\Emil\Desktop\Skolarbeten\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel\kod\c#\Testlabb1\bin\Debug\Testlabb1.exe
 C:\Users\Emil\Desktop\Skolarbeten\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel\kod\c#\Testlabb1\bin\Debug\Testlabb1.pdb
 C:\Users\Emil\Desktop\Skolarbeten\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel\kod\c#\Testlabb1\obj\Debug\Testlabb1.csprojResolveAssemblyReference.cache
+P:\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel\kod\c#\Testlabb1\bin\Debug\Testlabb1.exe.config
+P:\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel\kod\c#\Testlabb1\obj\Debug\Testlabb1.exe
+P:\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel\kod\c#\Testlabb1\obj\Debug\Testlabb1.pdb
+P:\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel\kod\c#\Testlabb1\bin\Debug\Testlabb1.exe
+P:\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel\kod\c#\Testlabb1\bin\Debug\Testlabb1.pdb
+P:\Iterativ Mjukvaruutveckling\Uppgift-1\Triangel\kod\c#\Testlabb1\obj\Debug\Testlabb1.csprojResolveAssemblyReference.cache
